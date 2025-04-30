@@ -4,7 +4,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f8f9fa;
+    
 }
+
 .header {
     display: flex;
     align-items: center;
@@ -25,6 +27,14 @@ body {
     position: absolute;
     right: 20px;
 }
+@media (max-width: 800px){
+    .search-bar input {
+        padding: 8px;
+        border: none;
+        border-radius: 5px;
+        display:none;
+    }
+}
 .search-bar input {
     padding: 8px;
     border: none;
@@ -37,9 +47,16 @@ body {
 .header img {
     height: 60px;
 }
+
+.feur{
+    border:solid;
+    border-radius: 30px;
+    border-width: 1px;
+}
 .container {
     display: flex;
     max-width: 1200px;
+    min-width: 1200px;
     margin: 20px auto;
     background: white;
     padding: 20px;
@@ -47,6 +64,9 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+p{
+    line-height: 1.6;
+}
 
 .sidebar {
     width: 200px;
@@ -93,13 +113,17 @@ body {
 }
 
 .infobox {
-    width: 250px;
+    max-width: 250px;
     max-height: 410px;
+    min-width: 170px;
+    min-height: 340px;
     padding: 10px;
     border: 1px solid #ddd;
     background-color: #f9f9f9;
     text-align: center;
-    overflow: auto;
+    
+
+
 }
 .infobox img {
     max-width: 100%;
@@ -109,9 +133,7 @@ h1 {
     text-align: left;
     font-size: 28px;
 }
-.buttons {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 20px;
-}
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+  }

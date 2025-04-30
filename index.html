@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Aurel Bigot</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<header class="header">
-    <a >
-        <img src="https://via.placeholder.com/100x40" alt="Logo">
-    </a>
-    <div class="header-title">Portfolio Aurel Bigot</div>
-    <div class="search-bar">
-        <input type="text" placeholder="Rechercher sur la page...">
-    </div>
-</header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio - Aurel Bigot</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
 <body>
+    <header class="header">
+        <a >
+            <img src="https://via.placeholder.com/100x40" alt="Logo">
+        </a>
+        <div class="header-title">Portfolio Aurel Bigot</div>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Rechercher sur la page...">
+        </div>
+    </header>
     <div class="container">
 
         <div class="sidebar">
@@ -32,7 +33,7 @@
                 </ol>
             </ul>
         </div>
-
+        
         <div class="content">
 
             <h1 id="biographie">Présentation</h1>
@@ -42,13 +43,18 @@
                 J’ai pour passion l’escalade que je pratique régulièrement depuis plusieurs années. 
                 J’aime aussi lire des romans dans mon temps libre ainsi que jouer aux jeux vidéo et faire des jeux de rôle.          
             </p>
-
             <br>
+            <br>
+            <div class="feur"></div>
+            <br>
+
             <h1 id="CV">Curriculum Vitae</h1>
             <embed src="./content/assets/docs/aurel_cv.pdf" width="800" height="500" type="application/pdf"/>
-            
             <br>
             <br>
+            <div class="feur"></div>
+            <br>
+
             <h1  id="ldm">Lettre de motivation</h1>
             <div  id="ldm2">
                 Aurel BIGOT <br>
@@ -76,51 +82,66 @@
             </div>
 
             <br>
+            <br>
+            <div class="feur"></div>
+            <br>
+
             <h1 id="mpjs">Parcours scolaire et projet scolaire</h1>
             <ul>
-                <li>STI2D : pendant le cursus scolaire de STI2D, j'ai fait différents petits projets, voici celui qui a pris le plus de temps</li>
-                    <ul> 
-                        <ul>
-                            <li><b>intitulé du projet :</b> horloge digitale et mécanique</li>
-                             <li><b>objectif :</b> faire une horloge digitale et mécanique en petit groupe </li>
-                            <br>
-                            <br>
-                            <li><b>description : </b> </li>
-                            
-                            Le projet a été réalisé en groupe de 2 sur plusieurs semaines dans le cadre d'un projet scolaire.
-                             J'ai participé à la création de l'idée et du design. 
-                             Ma partie a ensuite consisté à faire toute la partie hardware et software informatique. 
-                        </ul>
-                    </ul>
+                <img src="./content/assets/feur.png" alt="Illustration" style="float: right; margin-left: 15px; width: 400px;">
+                <li><h2>STI2D :</h2></li>
                     <br>
-                <li>1ère année d'informatique : durant ma première année, j'ai fait différents projets </li>
-                <ul> 
-                    <ul>
-                        <li><b>intitulé du projet :</b> compléter un squelette de jeu</li>
-                         <li><b>objectif :</b> apporter au squelette d'un jeu différentes capacités </li>
+                        
+                    <b>intitulé du projet :</b> horloge digitale et mécanique
+                    <br>
+                    <br>
+                    <b>objectif :</b> faire une horloge digitale et mécanique en petit groupe 
+                    <br>
+                    
+                    <p><b>description : </b> 
+                            
+                    Le projet a été réalisé en groupe de 2 sur plusieurs semaines dans le cadre d'un projet scolaire.
+                    J'ai participé à la création de l'idée et du design. 
+                    Ma partie a ensuite consisté à faire toute la partie hardware et software informatique. 
+                    </p>
+                    <br>
+               
+                <li><h2>1ère année d'informatique :</h2></li>
+                        <br> <img src="./content/assets/image/projet_go.PNG" alt="Illustration" style="float: right; margin-left: 15px; width: 333px;">
+                        <b>intitulé du projet :</b> compléter un squelette de jeu
                         <br>
                         <br>
-                        <li><b>description : </b> </li>
+                        <b>objectif :</b> apporter au squelette d'un jeu différentes capacités 
+                        <br>
+                        <br>
+                        <p><b>description : </b> 
                         
                         Le projet a été réalisé en groupe de 2 sur plusieurs semaines. 
                         Nous avions un squelette de jeu fourni et nous avons passé plusieurs semaines à le compléter.
                         Nous avons fait différentes choses comme la génération aléatoire des terrains, des modifications à la caméra...
-                    </ul>
-                </ul>
-                
-            </ul>
+                    </p>
 
+            </ul>
+           
             <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="feur"></div>
+            <br>
+
             <h1 id="mep">Mes expériences professionnelles</h1>
             <ul>
-                <li>stage de 3ème</li>
+                <li><h2>stage de 3ème</h2></li>
                 <p>
                     J'ai fait mon stage dans l'entreprise SPI. J'ai eu la chance de pouvoir suivre un ingénieur pendant une semaine.
                     J'ai donc pu assister à différentes réunions, revues de projets ... 
                     J'ai notamment pu aider un technicien dans la fabrication de matériel.
                 </p>
                 <br>
-                <li>stage en université</li>
+                <li><h2>stage en université</h2></li>
                 <p>
                     Dans le cadre de ma recherche pour l'orientation, j'ai suivi un technicien pendant deux semaines. 
                     J'ai découvert le milieu universitaire tout en découvrant le métier de technicien.
@@ -130,45 +151,58 @@
             </ul>
 
             <br>
-            <h1 id ="mpel"> Mes passions et loisirs</h1>
+            <div class="feur"></div>
             <br>
-            <h2> L'escalade, une passion</h2>
+
+            <h1 id ="mpel"> Mes passions et loisirs</h1>
+            
+            <ul>
+                <img src="./content/assets/escalade.jpg" alt="Illustration" style="float: right; margin-left: 15px; width: 300px;">
+            <li> <h2> L'escalade, une passion</h2></li>
             <p>
                 Je fais de l'escalade depuis environ 7 ans. Mais le sport n'est devenu une passion qu'en 2021. 
                 Depuis plusieurs années, je fais entre 6h et 8h d'escalade par semaine.
                 J'ai aussi pour objectif dans le futur d'aller en faire plus à l'extérieur, notamment sur le site de Fontainebleau.
             </p>
             <br>
-            <h2> La lecture, un loisir apprécié</h2>
+            <li><h2> La lecture, un loisir qui dure</h2></li>
             <p>
                 Depuis très jeune, j'apprécie lire. Je lis beaucoup de romans de science-fiction et de fantasy.
                 Dernièrement, une série de livres que j'ai particulièrement appréciée est "Le Problème à trois corps" de Liu Cixin.
             </p>
-
-            <h2> Les jeux de rôle, un loisir apprécié</h2>
+            <br>
+            <br><img src="./content/assets/pathfinder.jpg" alt="Illustration" style="float: right; margin-left: 15px; width: 150px;">
+            <li> <h2> Les jeux de rôle, un loisir apprécié</h2></li>
             <p>
                 Je joue à des jeux de rôle depuis environ 5 ans. J'y ai été introduit par mes frères. 
                 J'ai joué avec mes frères et des amis à de nombreuses campagnes dans différents systèmes comme "Donjons et Dragons", "Pathfinder" ou "Brigandine".
             </p>
-
-            <h2> Les jeux vidéo, un nouveau loisir</h2>
+            <br>
+            <li><h2> Les jeux vidéo, un nouveau loisir</h2></li>
             <p>
                 J'ai joué aux jeux vidéo par intermittence depuis plusieurs années. Le jeu vidéo n'est devenu une passion qu'en début d'année.
                 J'ai acheté dans le cadre de mes études un ordinateur puissant. Cela, en plus de me permettre de mieux travailler, m'a permis de jouer à différents jeux sur ordinateur.
                 Mes jeux préférés sont probablement "Red Dead Redemption 2", "Sea of Thieves" et "Valorant".
             </p>
+            
+            </ul>
+            <br>
+            <div class="feur"></div>
+            <br>
+
             <h1 id="contact">Contact</h1>
-            <p><strong>Email :</strong> nom@example.com</p>
-            <p><strong>Téléphone :</strong> 0123456789</p>
+            <p><strong>Email :</strong> aurelbigot19@gmail.com</p>
+            <p><strong>Téléphone :</strong> 07 67 35 60 35</p>
             <br>
             <br>
             <br>
+            inspiré par wikipedia
           </div>
 
         <br>
         <div class="infobox">
             <h3>Bigot Aurel</h3>
-            <img src="./content/assets/humain.png" alt="Portrait">
+            <img src="./content/assets/moi.png" alt="Portrait">
 
             <p><strong>Naissance :</strong> 19 février</p>
             <p><strong>Nationalité :</strong> française</p>
@@ -177,3 +211,41 @@
     </div>
 </body>
 </html>
+
+<script>
+    const searchInput = document.getElementById("searchInput");
+  
+    searchInput.addEventListener("input", function () {
+      removeHighlights();
+  
+      const text = this.value.trim();
+      if (text.length < 2) return;
+  
+      highlightText(document.querySelector(".content"), text);
+    });
+  
+    function highlightText(container, text) {
+      const regex = new RegExp(`(${text})`, 'gi');
+  
+      for (const node of container.childNodes) {
+        if (node.nodeType === 3) { // Text node
+          const match = node.nodeValue.match(regex);
+          if (match) {
+            const span = document.createElement("span");
+            span.innerHTML = node.nodeValue.replace(regex, '<mark class="highlight">$1</mark>');
+            container.replaceChild(span, node);
+          }
+        } else if (node.nodeType === 1 && node.childNodes && !["SCRIPT", "STYLE", "MARK"].includes(node.tagName)) {
+          highlightText(node, text);
+        }
+      }
+    }
+  
+    function removeHighlights() {
+      document.querySelectorAll('mark.highlight').forEach((mark) => {
+        const parent = mark.parentNode;
+        parent.replaceChild(document.createTextNode(mark.textContent), mark);
+        parent.normalize();
+      });
+    }
+  </script>
